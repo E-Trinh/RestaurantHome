@@ -1,0 +1,50 @@
+:root {
+    --main-bg-color: #FEF3C7;
+    --main-contrast-color: #92400E;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-family: 'Quicksand', Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.side-image {
+    z-index: 1;
+}
+
+.side-image img {
+    height: 100vh;
+    width: auto;
+    box-shadow: 0px 0px 8px #101010;
+}
+
+.side-image p {
+    position: absolute;
+    bottom: 1px;
+    color: #101010;
+}
+
+.side-image a {
+    color: #101010;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-contrast-color);
+}
