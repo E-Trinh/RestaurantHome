@@ -1,0 +1,24 @@
+{
+  "name": "restauranthome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-Trinh/RestaurantHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-Trinh/RestaurantHome/issues"
+  },
+  "homepage": "https://github.com/E-Trinh/RestaurantHome#readme",
+  "dependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
