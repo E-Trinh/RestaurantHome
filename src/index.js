@@ -8,6 +8,9 @@ function navBar() {
     const home = document.createElement("button");
     home.classList.toggle("nav-button");
     home.textContent = "Home";
+    home.addEventListener("click", () => {
+        clearContent();
+    });
 
     const menu = document.createElement("button");
     menu.classList.toggle("nav-button");
@@ -22,6 +25,10 @@ function navBar() {
     div.appendChild(contact);
     
     return div;
+}
+
+function clearContent() {
+    document.querySelector(".main-panel").innerText = "";
 }
 
 document.getElementById("content").appendChild(navBar());

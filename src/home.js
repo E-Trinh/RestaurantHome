@@ -1,6 +1,9 @@
 import soupImg from "./2048px-Tomato_Pumpkin_Soup_(32881733498).jpg";
 
 function homePage() {
+    const main = document.createElement("div");
+    main.classList.toggle("main-panel");
+
     const home = document.createElement("div");
     home.classList.toggle("home");
 
@@ -45,7 +48,9 @@ function homePage() {
     home.appendChild(sideImage);
     home.appendChild(header);
     
-    return home;
+    main.appendChild(home);
+
+    return main;
 }
 
 export {homePage};

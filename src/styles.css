@@ -37,6 +37,11 @@ html, body {
     height: 90vh;
 }
 
+.main-panel {
+    height: 100%;
+    width: 100%;
+}
+
 .home {
     height: 100%;
     width: 100%;
