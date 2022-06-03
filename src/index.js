@@ -1,5 +1,7 @@
 import './styles.css';
 import { homePage } from './home.js'
+import { menu } from './menu.js'
+import { contact } from './contact.js'
 
 function navBar() {
     const div = document.createElement("div");
