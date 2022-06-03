@@ -1,4 +1,5 @@
 :root {
+    --nav-bg-color: #78350f;
     --main-bg-color: #FEF3C7;
     --main-contrast-color: #92400E;
 }
@@ -12,9 +13,33 @@ html, body {
     font-family: 'Quicksand', Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.home {
+.nav-bar {
+    background-color: var(--nav-bg-color);
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 10vh;
+}
+
+.nav-button {
+    border: none;
+    font-size: 2rem;
+    background-color: var(--nav-bg-color);
+    color: var(--main-bg-color);
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+#content {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
     display: flex;
     overflow: hidden;
 }

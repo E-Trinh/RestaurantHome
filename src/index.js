@@ -10,11 +10,11 @@ function navBar() {
     home.textContent = "Home";
 
     const menu = document.createElement("button");
-    home.classList.toggle("nav-button");
+    menu.classList.toggle("nav-button");
     menu.textContent = "Menu";
 
     const contact = document.createElement("button");
-    home.classList.toggle("nav-button");
+    contact.classList.toggle("nav-button");
     contact.textContent = "Contact";
 
     div.appendChild(home);
