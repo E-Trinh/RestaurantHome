@@ -1,8 +1,8 @@
-function menu() {
+function menuPage() {
     const menu = document.createElement("div");
-    menyu.classList.toggle("menu");
+    menu.classList.toggle("contact");
 
     return menu;
 }
 
-export {menu}
+export { menuPage }

@@ -1,7 +1,7 @@
 import './styles.css';
 import { homePage } from './home.js'
-import { menu } from './menu.js'
-import { contact } from './contact.js'
+import { menuPage } from './menu.js'
+import { contactPage } from './contact.js'
 
 function navBar() {
     const div = document.createElement("div");
@@ -20,7 +20,7 @@ function navBar() {
     menu.textContent = "Menu";
     menu.addEventListener("click", () => {
         clearContent();
-        document.querySelector(".main-panel").appendChild(menu());
+        document.querySelector(".main-panel").appendChild(menuPage());
     });
 
     const contact = document.createElement("button");
@@ -28,7 +28,7 @@ function navBar() {
     contact.textContent = "Contact";
     contact.addEventListener("click", () => {
         clearContent();
-        document.querySelector(".main-panel").appendChild(contact());
+        document.querySelector(".main-panel").appendChild(contactPage());
     });
 
     div.appendChild(home);
