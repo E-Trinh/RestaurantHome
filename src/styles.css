@@ -51,6 +51,7 @@ html, body {
 
 .side-image {
     z-index: 1;
+    position: relative;
 }
 
 .side-image img {
@@ -60,6 +61,7 @@ html, body {
 }
 
 .side-image p {
+    background: rgb(255, 255, 255, 0.6);
     position: absolute;
     bottom: 1px;
     color: #101010;
@@ -77,6 +79,7 @@ html, body {
     align-items: center;
     background-color: var(--main-bg-color);
     color: var(--main-contrast-color);
+    text-align: center;
 }
 
 .menu {
@@ -98,4 +101,16 @@ html, body {
 
 .menu-item:hover {
     box-shadow: 0px 0px 15px #101010;
+}
+
+@media (max-width: 480px) or (orientation:portrait) {
+    .home {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .side-image img{
+        width: 100vw;
+        height: auto;
+    }
 }
