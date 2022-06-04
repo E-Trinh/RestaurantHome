@@ -1,8 +1,8 @@
 function contact() {
-    const main = document.createElement("div");
-    main.classList.toggle("main-panel");
+    const contact = document.createElement("div");
+    contact.classList.toggle("contact");
 
-    return main;
+    return contact;
 }
 
 export {contact}

@@ -1,8 +1,8 @@
 function menu() {
-    const main = document.createElement("div");
-    main.classList.toggle("main-panel");
+    const menu = document.createElement("div");
+    menyu.classList.toggle("menu");
 
-    return main;
+    return menu;
 }
 
 export {menu}
